@@ -1,7 +1,83 @@
 * {
-    color: rgb(105, 27, 27);
-    background-color: rgb(202, 202, 163);
+    
+    font-family: Garamond, sans-serif;
+/*    border: 1px solid black;    */
+    margin: 0;
+    padding: 0;
+    background-color: inherit;
+    box-sizing: border-box;
+}
+body {
+    background-color: #023664;
+}
+/* #023664 #0490C8 #59C7F3 #FAD105 #E6E6E6 */
+
+h1 {
+    color: #E6E6E6;
+    background-color: #0490C8;
 }
 ul {
-    color: black;
+    color:#E6E6E6;
+}
+.ingredients {
+    font-weight: bold;
+}
+.steps {
+    color: darkslategrey;
+}
+.container {
+    background-color: #0490C8;
+    display: block;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+.list {
+    width: 150px;
+    display: inline-block;
+    margin: 0 20px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.topic{
+    margin: 1px;
+    background-color: #59C7F3;
+    border-radius: 10px;
+}
+
+#main-title {
+    text-align: center;
+}
+div.title{
+    padding: 20px;
+    color: #E6E6E6;
+    text-align: center;
+    background-color: #0490C8;
+    width: 800px;
+    margin: 10px auto 10px auto;
+}
+a:link
+{
+   color: #E6E6E6;
+   text-decoration: none;
+}
+a:visited
+{
+   color: #E6E6E6;
+   text-decoration: none;
+}
+a:hover
+{
+   color: #FAD105;
+   text-decoration: none;
+}
+a:active
+{
+   color: #FAD105;
+   text-decoration: none;
+}
+.title em {
+    font-size: larger;
 }
